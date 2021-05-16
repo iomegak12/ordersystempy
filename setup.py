@@ -4,8 +4,8 @@ with open("README.md") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="stdpythonproject",
-    version="0.0.1",
+    name="sislcrmsystem",
+    version="0.0.2",
     author="Ramkumar",
     author_email="jd.ramkumar@gmail.com",
     description="Professional Python Development",
@@ -19,5 +19,11 @@ setuptools.setup(
         "Operating System :: OS Independent"
     ],
     python_requires='>=3.6',
-    install_requires=[],
+    install_requires=[
+        "requests",
+        "json",
+        "injector",
+        "prettytable",
+        "flask"
+    ],
 )

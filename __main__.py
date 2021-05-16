@@ -1,1 +1,0 @@
-print("Welcome to the World of Professional Python Development!")

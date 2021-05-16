@@ -2,3 +2,8 @@ requests
 Flask
 prettytable
 injector
+Flask
+wheel
+twine
+pymongo
+flask-cors
