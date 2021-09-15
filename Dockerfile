@@ -1,7 +1,7 @@
 FROM python:latest
 
 LABEL environment=Production
-LABEL author=Ramkumar JD
+LABEL author="Ramkumar JD"
 LABEL company=SISL
 
 COPY . /app
